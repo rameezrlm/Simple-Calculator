@@ -2,8 +2,8 @@
 
 This is a web-based calculator
 built using HTML, CSS, and JavaScript.
-It supports basic arithmetic operations such as addition, subtraction, multiplication, and division.  
+It supports number conversions such as binary to decimal and decimal to binary.  
 **Features:**
 
 - User interface designed with CSS.
-- Calculator have clear button that will clear screen.
+- Calculator is easy to use.

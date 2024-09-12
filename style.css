@@ -1,0 +1,82 @@
+body {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("https://img.freepik.com/free-vector/digital-blue-technology-background-with-binary-numbers_1017-11824.jpg");
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 50vh;
+  background-color: #0a0e5c98;
+  border-radius: 10px;
+  border: 2px solid #083896;
+  box-shadow: 10px 10px 15px 2px rgba(9, 9, 168, 0.6);
+}
+.conversion {
+  width: 90%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.main {
+  width: 90%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.result {
+  width: 90%;
+  height: 40%;
+}
+select {
+  padding: 10px;
+  color: white;
+  background-color: #0045ce;
+  border: 2px solid #e2dfd0;
+  border-radius: 5px;
+}
+select option {
+  background-color: white;
+  color: black;
+}
+#num {
+  padding: 10px;
+  border-radius: 15px;
+  width: 80%;
+  border: 2px solid #e2dfd0;
+}
+#submit {
+  padding: 10px;
+  border-radius: 5px;
+  width: 30%;
+  background-color: #0045ce;
+  border: 2px solid #e2dfd0;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#submit:hover {
+  background-color: #023aa9;
+}
+.result {
+  border: 2px solid rgba(195, 195, 212, 0.427);
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  height: 20vh;
+  font-size: 40px;
+}
